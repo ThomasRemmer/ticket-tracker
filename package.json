@@ -1,0 +1,27 @@
+{
+  "name": "ticket-tracker",
+  "version": "1.0.0",
+  "description": "",
+  "homepage":"https://thomasremmer.github.io/ticket-tracker/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThomasRemmer/ticket-tracker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThomasRemmer/ticket-tracker/issues"
+  },
+  "homepage": "https://github.com/ThomasRemmer/ticket-tracker#readme",
+  "dependencies": {
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}

@@ -1,11 +1,16 @@
 import "./App.scss"
+import EmployeeList from "./assets/data/Employee"
 import TicketCard from "./assets/components/TicketCard";
 
 
 const App = () => {
   
 
-
+const renderCards = EmployeeList.map((employee) => {
+  return (
+    <TicketCard id={employee.id} name ={employee.name} role={employee.role}/>
+  )
+})
 
 
 
@@ -17,15 +22,7 @@ const App = () => {
 return (
 
   <div className="app">
-    <TicketCard />
-
-
-
-
-
-
-
-
+    {renderCards}
   </div>
 
 

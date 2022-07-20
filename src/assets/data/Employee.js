@@ -1,64 +1,53 @@
 const EmployeeList = [
     {
-        idEmployee: 01,
-        Name: "Joe Mama",
-        Role: "Cook",
-
+      id: 1,
+      name: "Alima Miller",
+      role: "Junior Software Developer"
     },
     {
-        idEmployee: 02,
-        Name: "Joe Mama",
-        Role: "Cook",
-
+      id: 2,
+      name: "Evelyn Rodgers",
+      role: "Junior Software Developer"
     },
     {
-        idEmployee: 03,
-        Name: "Joe Mama",
-        Role: "Cook",
-
+      id: 3,
+      name: "Henley Myers",
+      role: "Junior Software Developer"
     },
     {
-        idEmployee: 04,
-        Name: "Joe Mama",
-        Role: "Cook",
-
+      id: 4,
+      name: "Celyn Sanders",
+      role: "Software Developer"
     },
     {
-        idEmployee: 05,
-        Name: "Joe Mama",
-        Role: "Cook",
-
+      id: 5,
+      name: "Effie Mohamed",
+      role: "Software Developer"
     },
     {
-        idEmployee: 06,
-        Name: "Joe Mama",
-        Role: "Cook",
-
+      id: 6,
+      name: "Karam Lees",
+      role: "Senior Software Developer"
     },
     {
-        idEmployee: 07,
-        Name: "Joe Mama",
-        Role: "Cook",
-
+      id: 7,
+      name: "Eleanor Dowling",
+      role: "Project Manager"
     },
     {
-        idEmployee: 08,
-        Name: "Joe Mama",
-        Role: "Cook",
-
+      id: 8,
+      name: "Haris Grey",
+      role: "Tester"
     },
     {
-        idEmployee: 09,
-        Name: "Joe Mama",
-        Role: "Cook",
-
+      id: 9,
+      name: "Sohaib Farley",
+      role: "Tester"
     },
     {
-        idEmployee: 10,
-        Name: "Joe Mama",
-        Role: "Cook",
-
+      id: 10,
+      name: "Phillip Mitchell",
+      role: "Hard Man"
     },
-
-]
-export default EmployeeList
+  ]
+  export default EmployeeList;

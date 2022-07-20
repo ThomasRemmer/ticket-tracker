@@ -1,3 +1,43 @@
+@use "../scss/variables" as * ;
+
 .ticket {
-    border: 1px black solid
+    border: 1px $secondary-color solid;
+    display: flex;
+    flex-direction: column;
+    height: 400px; 
+    width: 200px;
+    margin: 10px;
+
+    .ticket__title {
+        margin: 15px;
+        font-size: 1.5rem;
+        color: $secondary-color;
+        font-family: $title-font;
+    }
+    
+    .ticket__text{ 
+        margin: 15px;
+        font-size: 1rem;
+        color: $text-color;
+        font-family: $text-font;
+    }
+
+    .button__container {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 100px;
+    }
+
+    .ticket__button {
+        background-color: $infill-color;
+        height: 60px;
+        width: 60px;
+        border: none;
+        font-size: 3rem;
+
+        &:hover {
+            background-color: $secondary-color;
+        }
+
+    }
 }

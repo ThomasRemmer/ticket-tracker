@@ -20,16 +20,16 @@ const TicketCard = (props) => {
     
     
     return (
-        <div>
-            <p>
+        <div className="ticket">
+            <p className="ticket__text">
             name: {name}
             </p>
-            <p>
+            <p className="ticket__text">
             roll: {role}
             </p>
-            <div>
-                <p>Current Tickets</p>
-                <p>{counter}</p>
+            <div className="ticket__container">
+                <p className="ticket__text">Current Tickets</p>
+                <p className="ticket__text">{counter}</p>
                 <div>
                     <button onClick={handleIncrement}>+</button>
                     <button onClick={handleDecrement}>-</button>
